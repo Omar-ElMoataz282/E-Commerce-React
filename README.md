@@ -42,3 +42,6 @@ Currently, two official plugins are available:
 - Pagination Library
 - Image Gallery Library
 - Loading Skeleton Library
+
+## Link Live Server
+- https://e-commerce-meroo.netlify.app
