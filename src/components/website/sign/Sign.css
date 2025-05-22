@@ -1,0 +1,19 @@
+.profile-logo button {
+  padding: 0 !important;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  border: none;
+}
+
+.profile-logo button::after {
+  display: none;
+}
+
+.profile-logo button:hover {
+  background-color: white;
+}

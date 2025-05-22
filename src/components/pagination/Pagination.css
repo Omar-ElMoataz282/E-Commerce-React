@@ -1,0 +1,40 @@
+.custom-pagination {
+  padding: 0;
+  display: block;
+  width: fit-content;
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+}
+
+.custom-pagination li {
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.custom-pagination li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.custom-pagination li a {
+  color: black;
+}
+
+.custom-pagination li:hover {
+  background-color: #ddd;
+}
+
+.custom-pagination li.selected {
+  background-color: #0d6efd;
+  color: white;
+}

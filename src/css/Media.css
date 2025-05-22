@@ -1,0 +1,40 @@
+/*Start For Form Only*/
+@media (max-width: 992px) {
+  .form {
+    background-image: linear-gradient(
+        110deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%,
+        transparent 50%
+      ),
+      url("../assets/geranimo-WJkc3xZjSXw-unsplash.jpg");
+  }
+  .custom-form {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  .custom-form h2 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .form-custom input {
+    width: 100%;
+  }
+  .form-custom label {
+    color: white;
+  }
+
+  .Sign-buttons {
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+  }
+
+  .err {
+    margin: 10px auto;
+  }
+}

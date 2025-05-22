@@ -1,0 +1,9 @@
+.dashboard {
+  background-color: #f7f8fa;
+}
+
+@media (max-width: 767px) {
+  .dashboard .main-content {
+    padding: 0 !important;
+  }
+}

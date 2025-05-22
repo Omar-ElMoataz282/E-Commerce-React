@@ -1,0 +1,103 @@
+/*Nav-Bar*/
+.custom-search {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.custom-search:focus {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+  border: rgba(0, 0, 0, 0.1) !important;
+  outline: rgba(0, 0, 0, 0.1) !important;
+}
+
+.input-pr {
+  padding-right: 100px !important;
+}
+
+.category-title {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.category-title:hover {
+  color: rgb(85, 85, 245) !important;
+}
+
+/*Landing-Page*/
+.handle-page {
+  background-image: url("../../../assets/header.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*Section-Before-Top-Rated*/
+.sec-page {
+  margin-top: 15px;
+  background-image: url("../../../assets/Colorful.png");
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.sec-img {
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .sec-content {
+    order: 2;
+  }
+
+  .sec-img {
+    order: 1;
+    margin: auto;
+    max-width: 250px;
+  }
+}
+
+/*Product-Card*/
+.sale-style {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.del-price {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.img-pro {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: contain !important;
+  padding: 10px;
+}
+
+/*Media Query For Top Rated Only*/
+@media (max-width: 480px) {
+  .handle-topRated {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .handle-topRated img {
+    margin: auto;
+  }
+
+  .handle-topRated > div > div {
+    column-gap: 40px;
+    justify-content: center !important;
+  }
+}
+
+/*Media Query Home Page*/
+@media (max-width: 576px) {
+  .pro-card-center {
+    text-align: center;
+  }
+}

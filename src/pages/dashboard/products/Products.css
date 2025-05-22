@@ -1,0 +1,55 @@
+.img-con {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.b-upload {
+  border: 2px dashed;
+  cursor: pointer;
+}
+
+.custom-progress {
+  background-color: rgb(214, 212, 212);
+  width: 100%;
+  height: 9px;
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.custom-progress .inner-progress {
+  position: relative;
+  background-color: #56b6ff;
+  height: 100%;
+  width: 0;
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.3s !important;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -ms-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+}
+
+.del {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
