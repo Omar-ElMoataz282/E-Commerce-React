@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Alert, Container, Form, Table } from "react-bootstrap";
-import ShowDataCheck from "./showDataCheck";
+import { Alert, Container, Form } from "react-bootstrap";
+import ShowDataCheck from "./ShowDataCheck";
 
 function Checkout() {
   const [form, setForm] = useState({
