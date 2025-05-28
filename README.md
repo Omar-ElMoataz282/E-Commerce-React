@@ -46,4 +46,8 @@ Currently, two official plugins are available:
 - axios
 
 ## Link Live Server
+- **Before you click the link, you need to clone the backend using**:
+  -- git clone https://github.com/Omar-ElMoataz282/E-Commerce-BackEnd
+  -- download XAMPP and run it as admininistrator and click in MySQL (Actions) start
+  -- In the backend folder, click on the file path, type cmd, and in the command prompt: php artisan serve
 - https://e-commerce-meroo.netlify.app
