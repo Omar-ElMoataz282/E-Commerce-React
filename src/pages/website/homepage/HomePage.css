@@ -27,7 +27,7 @@
 
 /*Landing-Page*/
 .handle-page {
-  background-image: url("../../../assets/header.png");
+  background-image: url("../../../../public/assets/header.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
